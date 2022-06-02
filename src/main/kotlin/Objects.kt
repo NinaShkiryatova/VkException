@@ -29,8 +29,9 @@ class Views(
 class Geo (
     var type: String,
     var coordinates: String,
-    var place: Object?
+    val place_param: String?
         ){
+    val place = "place is not defined" ?: place_param
 }
 
 class PostSource (

@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="345ff0b3-cb7e-4748-9947-8de0ac90f4c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Attachment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Objects.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Post.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/WallService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/WallServiceTest.kt" afterDir="false" />
+    <list default="true" id="345ff0b3-cb7e-4748-9947-8de0ac90f4c6" name="Changes" comment="Добавлен файл Attachment.kt с новыми классами и интерфейсом, дополнены файлы Objects.kt и WallServiceTest.kt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Objects.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Objects.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +72,7 @@
       <command value="gradle test jacocoTestReport" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WallServiceTest">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="VKPost [test jacoco TestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -134,29 +118,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WallServiceTest.add" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;WallServiceTest.add&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="WallServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VKPost.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -176,13 +137,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="VKPost.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="JUnit.WallServiceTest" />
         <item itemvalue="Gradle.VKPost [test jacocoTestReport]" />
         <item itemvalue="Gradle.VKPost [test jacoco TestReport]" />
         <item itemvalue="JUnit.WallServiceTest.add" />
-        <item itemvalue="Gradle.WallServiceTest.add" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +163,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654149127940</updated>
     </task>
+    <task id="LOCAL-00001" summary="Добавлен файл Attachment.kt с новыми классами и интерфейсом, дополнены файлы Objects.kt и WallServiceTest.kt">
+      <created>1654165157638</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654165157638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,8 +184,12 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавлен файл Attachment.kt с новыми классами и интерфейсом, дополнены файлы Objects.kt и WallServiceTest.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен файл Attachment.kt с новыми классами и интерфейсом, дополнены файлы Objects.kt и WallServiceTest.kt" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/VKPost$WallServiceTest_add.ic" NAME="WallServiceTest.add Coverage Results" MODIFIED="1654163245727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/VKPost$WallServiceTest.ic" NAME="WallServiceTest Coverage Results" MODIFIED="1654164687540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/VKPost$WallServiceTest.ic" NAME="WallServiceTest Coverage Results" MODIFIED="1654164864893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
