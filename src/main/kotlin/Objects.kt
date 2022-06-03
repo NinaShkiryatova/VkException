@@ -1,4 +1,4 @@
-class Likes(
+data class Likes(
     var count: UInt,
     var userLikes: Boolean,
     var canLike: Boolean,
@@ -6,7 +6,7 @@ class Likes(
 ) {
 }
 
-class Comments(
+data class Comments(
     var count: UInt,
     var canPost: Boolean,
     var groupsCanPost: Boolean,
@@ -15,35 +15,35 @@ class Comments(
 ) {
 }
 
-class Reposts(
+data class Reposts(
     var count: UInt,
     var userReposted: Boolean
 ) {
 }
 
-class Views(
+data class Views(
     var count: UInt
 ) {
 }
 
-class Geo (
-    var type: String,
-    var coordinates: String,
+data class Geo (
+    val type: String,
+    val coordinates: String,
     val place_param: String?
         ){
     val place = "place is not defined" ?: place_param
 }
 
-class PostSource (
-    var type: String,
-    var platform: String,
-    var data: String,
-    var url: String
+data class PostSource (
+    val type: String,
+    val platform: String,
+    val data: String,
+    val url: String
         ){
 }
 
-class CopyHistory (
-    var historyArray: Array<Post>
+data class CopyHistory (
+    val historyArray: Array<Post>
         )
 
 enum class PostType {

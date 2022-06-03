@@ -1,4 +1,4 @@
-class Post(
+data class Post(
     var id: Int,
     val ownerId: Int,
     val fromId: Int,
@@ -27,33 +27,4 @@ class Post(
     val copyHistory: CopyHistory?,
     val attachments: Attachment
 ) {
-    fun copy(
-        id: Int = this.id,
-        ownerId: Int = this.ownerId,
-        fromId: Int = this.fromId,
-        createdBy: Int = this.createdBy,
-        date: Int = this.date,
-        text: String = this.text,
-        replyOwnerId: Int = this.replyOwnerId,
-        replyPostId: Int = this.replyPostId,
-        friendsOnly: Boolean = this.friendsOnly,
-        comments: Comments = this.comments,
-        copyright: String = this.copyright,
-        likes: Likes = this.likes,
-        reposts: Reposts = this.reposts,
-        views: Views = this.views,
-        postType: PostType = this.postType,
-        signerId: Int = this.signerId,
-        canPin: Boolean = this.canPin,
-        canDelete: Boolean = this.canDelete,
-        canEdit: Boolean = this.canEdit,
-        isPinned: Boolean = this.isPinned,
-        markedAsAds: Boolean = this.markedAsAds,
-        isFavorite: Boolean = this.isFavorite,
-        postponedId: Int = this.postponedId,
-        geo: Geo = this.geo,
-        postSource: PostSource? = this.postSource,
-        copyHistory: CopyHistory? = this.copyHistory,
-        attachments: Attachment = this.attachments
-    ) = Post (id, ownerId, fromId, createdBy, date, text, replyOwnerId, replyPostId, friendsOnly, comments, copyright, likes, reposts, views, postType, signerId, canPin, canDelete, canEdit, isPinned, markedAsAds, isFavorite, postponedId, geo, postSource, copyHistory, attachments)
 }
