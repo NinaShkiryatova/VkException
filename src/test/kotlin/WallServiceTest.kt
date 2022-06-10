@@ -37,11 +37,11 @@ class WallServiceTest {
             null,
             Attachment(
                 attachments = arrayOf(
-                    VideoAttachment(4, 54, "Trial video", "video description", 43, 7654, 43, 2),
-                    AudioAttachment(54, 12, "Random Name", "Random title", 554, "djstfj"),
-                    DocumentAttachment(65, 67, "Document title", 763, "txt", "jytfyde", 76523),
-                    PhotoAttachment(53, 83, "kuygfjsuy", "akweuygaf"),
-                    LinkAttachment("sdkyugf", "Title for link", "Description for link")
+                    VideoAttachment(Video(4, 54, "Trial video", "videoDescription", 43, 7654, 43, 2)),
+                    AudioAttachment(Audio(54, 12, "Random Name", "Random title", 554, "djstfj")),
+                    DocumentAttachment(Document(65, 67, "Document title", 763, "txt", "jytfyde", 76523)),
+                    PhotoAttachment(Photo(53, 83, "kuygfjsuy", "akweuygaf")),
+                    LinkAttachment(Link("sdkyugf", "Title for link", "Description for link"))
                 )
             )
         )
@@ -84,11 +84,11 @@ class WallServiceTest {
             null,
             Attachment(
                 attachments = arrayOf(
-                    VideoAttachment(4, 54, "Trial video", "video description", 43, 7654, 43, 2),
-                    AudioAttachment(54, 12, "Random Name", "Random title", 554, "djstfj"),
-                    DocumentAttachment(65, 67, "Document title", 763, "txt", "jytfyde", 76523),
-                    PhotoAttachment(53, 83, "kuygfjsuy", "akweuygaf"),
-                    LinkAttachment("sdkyugf", "Title for link", "Description for link")
+                    VideoAttachment(Video(4, 54, "Trial video", "videoDescription", 43, 7654, 43, 2)),
+                    AudioAttachment(Audio(54, 12, "Random Name", "Random title", 554, "djstfj")),
+                    DocumentAttachment(Document(65, 67, "Document title", 763, "txt", "jytfyde", 76523)),
+                    PhotoAttachment(Photo(53, 83, "kuygfjsuy", "akweuygaf")),
+                    LinkAttachment(Link("sdkyugf", "Title for link", "Description for link"))
                 )
             )
         )
@@ -122,11 +122,11 @@ class WallServiceTest {
             null,
             Attachment(
                 attachments = arrayOf(
-                    VideoAttachment(4, 54, "Trial video", "video description", 43, 7654, 43, 2),
-                    AudioAttachment(54, 12, "Random Name", "Random title", 554, "djstfj"),
-                    DocumentAttachment(65, 67, "Document title", 763, "txt", "jytfyde", 76523),
-                    PhotoAttachment(53, 83, "kuygfjsuy", "akweuygaf"),
-                    LinkAttachment("sdkyugf", "Title for link", "Description for link")
+                    VideoAttachment(Video(4, 54, "Trial video", "videoDescription", 43, 7654, 43, 2)),
+                    AudioAttachment(Audio(54, 12, "Random Name", "Random title", 554, "djstfj")),
+                    DocumentAttachment(Document(65, 67, "Document title", 763, "txt", "jytfyde", 76523)),
+                    PhotoAttachment(Photo(53, 83, "kuygfjsuy", "akweuygaf")),
+                    LinkAttachment(Link("sdkyugf", "Title for link", "Description for link"))
                 )
             )
         )
@@ -169,11 +169,11 @@ class WallServiceTest {
             null,
             Attachment(
                 attachments = arrayOf(
-                    VideoAttachment(4, 54, "Trial video", "video description", 43, 7654, 43, 2),
-                    AudioAttachment(54, 12, "Random Name", "Random title", 554, "djstfj"),
-                    DocumentAttachment(65, 67, "Document title", 763, "txt", "jytfyde", 76523),
-                    PhotoAttachment(53, 83, "kuygfjsuy", "akweuygaf"),
-                    LinkAttachment("sdkyugf", "Title for link", "Description for link")
+                    VideoAttachment(Video(4, 54, "Trial video", "videoDescription", 43, 7654, 43, 2)),
+                    AudioAttachment(Audio(54, 12, "Random Name", "Random title", 554, "djstfj")),
+                    DocumentAttachment(Document(65, 67, "Document title", 763, "txt", "jytfyde", 76523)),
+                    PhotoAttachment(Photo(53, 83, "kuygfjsuy", "akweuygaf")),
+                    LinkAttachment(Link("sdkyugf", "Title for link", "Description for link"))
                 )
             )
         )
@@ -207,11 +207,11 @@ class WallServiceTest {
             null,
             Attachment(
                 attachments = arrayOf(
-                    VideoAttachment(4, 54, "Trial video", "video description", 43, 7654, 43, 2),
-                    AudioAttachment(54, 12, "Random Name", "Random title", 554, "djstfj"),
-                    DocumentAttachment(65, 67, "Document title", 763, "txt", "jytfyde", 76523),
-                    PhotoAttachment(53, 83, "kuygfjsuy", "akweuygaf"),
-                    LinkAttachment("sdkyugf", "Title for link", "Description for link")
+                    VideoAttachment(Video(4, 54, "Trial video", "videoDescription", 43, 7654, 43, 2)),
+                    AudioAttachment(Audio(54, 12, "Random Name", "Random title", 554, "djstfj")),
+                    DocumentAttachment(Document(65, 67, "Document title", 763, "txt", "jytfyde", 76523)),
+                    PhotoAttachment(Photo(53, 83, "kuygfjsuy", "akweuygaf")),
+                    LinkAttachment(Link("sdkyugf", "Title for link", "Description for link"))
                 )
             )
         )
