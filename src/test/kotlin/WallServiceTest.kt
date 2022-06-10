@@ -35,7 +35,7 @@ class WallServiceTest {
             Geo("test", "test", null),
             PostSource("Type", "Platform", "53454", "hdrhts"),
             null,
-            Attachment(
+            Attachments(
                 attachments = arrayOf(
                     VideoAttachment(Video(4, 54, "Trial video", "videoDescription", 43, 7654, 43, 2)),
                     AudioAttachment(Audio(54, 12, "Random Name", "Random title", 554, "djstfj")),
@@ -82,7 +82,7 @@ class WallServiceTest {
             Geo("test", "test", null),
             null,
             null,
-            Attachment(
+            Attachments(
                 attachments = arrayOf(
                     VideoAttachment(Video(4, 54, "Trial video", "videoDescription", 43, 7654, 43, 2)),
                     AudioAttachment(Audio(54, 12, "Random Name", "Random title", 554, "djstfj")),
@@ -120,7 +120,7 @@ class WallServiceTest {
             Geo("test", "test", null),
             null,
             null,
-            Attachment(
+            Attachments(
                 attachments = arrayOf(
                     VideoAttachment(Video(4, 54, "Trial video", "videoDescription", 43, 7654, 43, 2)),
                     AudioAttachment(Audio(54, 12, "Random Name", "Random title", 554, "djstfj")),
@@ -167,7 +167,7 @@ class WallServiceTest {
             Geo("test", "test", null),
             null,
             null,
-            Attachment(
+            Attachments(
                 attachments = arrayOf(
                     VideoAttachment(Video(4, 54, "Trial video", "videoDescription", 43, 7654, 43, 2)),
                     AudioAttachment(Audio(54, 12, "Random Name", "Random title", 554, "djstfj")),
@@ -205,7 +205,7 @@ class WallServiceTest {
             Geo("test", "test", null),
             null,
             null,
-            Attachment(
+            Attachments(
                 attachments = arrayOf(
                     VideoAttachment(Video(4, 54, "Trial video", "videoDescription", 43, 7654, 43, 2)),
                     AudioAttachment(Audio(54, 12, "Random Name", "Random title", 554, "djstfj")),

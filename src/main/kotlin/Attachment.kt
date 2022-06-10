@@ -1,12 +1,12 @@
 import java.util.Objects
 
-data class Attachment(
-    val attachments: Array<Attachments>
+data class Attachments(
+    val attachments: Array<Attachment>
 )
 
-interface Attachable {}
+interface Attachable
 
-abstract class Attachments(
+abstract class Attachment(
     open val attachedObject: Attachable,
     open val type: String
 ) {
@@ -27,7 +27,7 @@ data class Video(
 data class VideoAttachment(
     override val attachedObject: Video,
     override val type: String = "video"
-) : Attachments(attachedObject, type) {
+) : Attachment(attachedObject, type) {
 }
 
 data class Photo(
@@ -41,7 +41,7 @@ data class Photo(
 data class PhotoAttachment(
     override val attachedObject: Photo,
     override val type: String = "photo"
-) : Attachments(attachedObject, type) {
+) : Attachment(attachedObject, type) {
 }
 
 data class Document(
@@ -58,7 +58,7 @@ data class Document(
 data class DocumentAttachment(
     override val attachedObject: Document,
     override val type: String = "document"
-) : Attachments(attachedObject, type) {
+) : Attachment(attachedObject, type) {
 }
 
 data class Audio(
@@ -74,7 +74,7 @@ data class Audio(
 data class AudioAttachment(
     override val attachedObject: Audio,
     override val type: String = "audio"
-) : Attachments(attachedObject, type) {
+) : Attachment(attachedObject, type) {
 }
 
 data class Link(
@@ -87,5 +87,5 @@ data class Link(
 data class LinkAttachment(
     override val attachedObject: Link,
     override val type: String = "link"
-) : Attachments(attachedObject, type) {
+) : Attachment(attachedObject, type) {
 }

@@ -25,6 +25,6 @@ data class Post(
     val geo: Geo,
     val postSource: PostSource?,
     val copyHistory: CopyHistory?,
-    val attachments: Attachment
+    val attachments: Attachments
 ) {
 }
