@@ -46,6 +46,21 @@ data class CopyHistory (
     val historyArray: Array<Post>
         )
 
+data class Donut (
+    val isDon: Boolean,
+    val placeholder: String
+        ) {
+}
+
+data class CommentsThread(
+    val count: Int,
+    val items: Array<Comments>,
+    val canPost: Boolean,
+    val showReplyButton: Boolean,
+    val groupsCanPost: Boolean
+){
+}
+
 enum class PostType {
     Post, Copy, Reply, Postpone, Suggest
 }
